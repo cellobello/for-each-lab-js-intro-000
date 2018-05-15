@@ -4,3 +4,8 @@ function iterativeLog(randomArray) {
   });
 }
 
+function iterate(callback) {
+  var newArray = [0, 2, 4, 6];
+  newArray.forEach(callback);
+  
+}
